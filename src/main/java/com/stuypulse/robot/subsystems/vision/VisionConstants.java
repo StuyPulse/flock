@@ -48,7 +48,7 @@ public interface VisionConstants {
      * </code>
      */
     public enum Camera {
-        ;
+        SAMERA2("openaicam", new Transform3d(), 0.0);
         private final CameraData data;
 
         /**
@@ -104,5 +104,5 @@ public interface VisionConstants {
         PHOTONVISION
     }
 
-    VisionMode VISION_MODE = VisionMode.LIMELIGHT;
+    VisionMode VISION_MODE = VisionMode.PHOTONVISION;
 }
